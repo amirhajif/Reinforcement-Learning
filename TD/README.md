@@ -5,12 +5,12 @@
 	2.	Update Rule:
 	•	For each transition, compute the TD target:
 
-TD\_target = R + \gamma \cdot V(s{\prime})
+TD_target = R +gamma.V(s`)
 
 	•	Compute the TD error:
 
-TD\_error = TD\_target - V(s)
+TD_error = TD_target - V(s)
 
 	•	Update the value function:
 
-V(s) = V(s) + \alpha \cdot TD\_error
+V(s) = V(s) + alpha.TD_error
